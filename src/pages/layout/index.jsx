@@ -1,4 +1,4 @@
-import React from "react";
+import React,{memo} from "react";
 import { Layout } from 'antd'
 import Header from "./header"
 import Sider from "./sider"
@@ -15,4 +15,4 @@ const Main = (props) => {
         </Layout>
     )
 }
-export default  Main
+export default  memo(Main)
