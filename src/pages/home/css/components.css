@@ -1,0 +1,14 @@
+.components-list{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.component-item{
+  width: 50%;
+  padding: 25% 0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
