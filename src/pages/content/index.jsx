@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
 const Login=(props)=>{
-    return <div key={props.location.key}>
-        <div style={{fontSize:'64px',color:'red'}}>登录页面</div>
+    return <div>
+        <div style={{fontSize:'64px',color:'#634411'}}>内容页面</div>
         <NavLink
             className={"App-link"}
             activeClassName={"App-active"}
             to={"/home"}
           >
-            首页
+            <span style={{color:'#000'}}>首页</span>
           </NavLink>
     </div>
 }
